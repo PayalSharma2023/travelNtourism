@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const { UserModel } = require("../models/userModel")
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
@@ -96,7 +95,4 @@ const VerifyUser = async (req, res, next) => {
 }
 
 module.exports = {createUser, login, VerifyUser}
-=======
-const User = require('../models/user');
 
->>>>>>> 2e6af62566a6a7f44a18f261bf8148cb7f8e3eb2
