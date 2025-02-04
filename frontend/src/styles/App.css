@@ -32,14 +32,14 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #2c3e50;
   text-decoration: none;
+  justify-content: left;
 }
 
 .nav-links {
@@ -90,10 +90,13 @@
 
 .hero-content {
   max-width: 800px;
+  color: black;
+  font-size: 1.5rem;
 }
 
 .hero-content h1 {
   font-size: 3rem;
+  color: black;
   margin-bottom: 1rem;
 }
 
@@ -101,10 +104,12 @@
 .search-bar {
   background: white;
   padding: 1rem;
-  border-radius: 5px;
+  border: 2px solid rgb(148, 148, 148);
+  border-radius: 10px;
   display: flex;
   gap: 1rem;
-  max-width: 800px;
+  width: 1000px;
+  height: 100px;
   margin: 2rem auto;
 }
 
@@ -112,7 +117,7 @@
 .search-bar select {
   padding: 0.5rem;
   border: 1px solid #ddd;
-  border-radius: 3px;
+  border-radius: 10px;
   flex: 1;
 }
 
@@ -121,7 +126,7 @@
   color: white;
   border: none;
   padding: 0.5rem 2rem;
-  border-radius: 3px;
+  border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -247,4 +252,10 @@ footer {
   .search-bar {
     flex-direction: column;
   }
+}
+.testimonials {
+  font-size: 2rem;
+  justify-content: center;
+  display: flex;
+  margin: 3px 3px;
 }
