@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact Us</h3>
           <ul>
-            <li>Email: info@wanderlust.com</li>
+            <li>Email: info@roamers.com</li>
             <li>Phone: +1 234 567 890</li>
             <li>Address: 123 Travel Street</li>
           </ul>

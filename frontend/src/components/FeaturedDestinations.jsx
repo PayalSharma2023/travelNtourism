@@ -6,21 +6,21 @@ const destinations = [
     name: "Paris, France",
     description: "Experience the city of love",
     price: 899,
-    image: "/api/placeholder/400/300",
+    image: "/images/destinations/paris.jpg",
   },
   {
     id: 2,
     name: "Bali, Indonesia",
     description: "Paradise island getaway",
     price: 799,
-    image: "/api/placeholder/400/300",
+    image: "/images/destinations/bali.jpg",
   },
   {
     id: 3,
     name: "Tokyo, Japan",
     description: "Modern meets traditional",
     price: 999,
-    image: "/api/placeholder/400/300",
+    image: "/images/destinations/tokyo.jpg",
   },
 ];
 

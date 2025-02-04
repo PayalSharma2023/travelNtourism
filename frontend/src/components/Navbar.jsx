@@ -19,11 +19,14 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
       <div className="nav-container">
         <Link to="/" className="logo">
-          Wanderlust
+          Roamers
         </Link>
         <div
           className="mobile-menu-button"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          onClick={() => {
+            setIsMobileMenuOpen(!isMobileMenuOpen);
+            console.log("Mobile Menu Open:", !isMobileMenuOpen); // Debug log
+          }}
         >
           <span></span>
           <span></span>
